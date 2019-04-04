@@ -1,7 +1,7 @@
 En este archivo se van a especificar los primeros pasos
 necesarios para generar un proyecto de angular.
 
-# Empezamos por descargar el framework angular mediante npm:
+#1 Empezamos por descargar el framework angular mediante npm:
   >> npm i -g @angular/cli
     y despues comprobamos que se ha instalado correctamente:
       >> ng --version
@@ -10,11 +10,14 @@ Acto seguido creamos un nuevo directorio que albergara todo:
 Accedemos a ese directorio:
   >> cd nombre_proyecto
 
-# Creamos el proyecto:
+#2 Creamos el proyecto:
   >> ng new nombre_proyecto
     el nombre_proyecto no tiene porque ser el mismo.
+      se ha decidido crear el directorio que albergara el angular project:
+        >> mkdir angular00
+        >> cd angular00 + #3
 
-# Inicializamos angular:
+#3 Inicializamos angular:
   >> ng serve
     este comando genera todos los archivos y directorios necesarios para hacer funcionar el front.
     te especifica la URL y el port.
