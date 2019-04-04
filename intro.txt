@@ -16,3 +16,5 @@ Accedemos a ese directorio:
 
 # Inicializamos angular:
   >> ng serve
+    este comando genera todos los archivos y directorios necesarios para hacer funcionar el front.
+    te especifica la URL y el port.
